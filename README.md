@@ -1,24 +1,21 @@
-Aqui está um exemplo de um arquivo `README.md` para um projeto que contém duas pastas: uma para um projeto Node.js (API) e outra para um projeto Dart (App). Ele explica como configurar e executar ambos os projetos:
-
----
-
 # Projeto Exemplo
 
 Este projeto contém dois subprojetos: 
-- `api/`: Um projeto Node.js que serve como a API backend.
-- `app/`: Um projeto Dart, que pode ser uma aplicação mobile ou web, que consome a API.
+- `api/`: Um projeto Node.js simples que serve como a API backend.
+- `example_dart/`: Um projeto Dart, que consome a API.
 
 ## Estrutura do Projeto
 
 ```
-/projeto-exemplo
+/estudo_pattern
 │
 ├── api/       # Projeto Node.js (API Backend)
 │   ├── src/
 │   ├── package.json
 │   └── ...
 │
-└── app/       # Projeto Dart (Aplicação Frontend)
+└── example_dart/       # Projeto Dart (Aplicação )
+    ├── bin/ 
     ├── lib/
     ├── pubspec.yaml
     └── ...
@@ -28,8 +25,8 @@ Este projeto contém dois subprojetos:
 
 Certifique-se de ter as seguintes ferramentas instaladas para rodar os projetos:
 
-- [Node.js](https://nodejs.org/) (versão 14.x ou superior)
-- [Dart SDK](https://dart.dev/get-dart) (versão 2.x ou superior)
+- [Node.js](https://nodejs.org/) (versão 16.x ou superior)
+- [Dart SDK](https://dart.dev/get-dart) (versão 3.x ou superior)
 
 ## Como rodar o projeto
 
@@ -57,10 +54,10 @@ A API estará rodando em [http://localhost:3000](http://localhost:3000).
 
 ### 2. Configurar e rodar o App (Dart)
 
-1. Navegue até a pasta `example-dart/`:
+1. Navegue até a pasta `example_dart/`:
 
     ```bash
-    cd example-dart/
+    cd example_dart/
     ```
 
 2. Instale as dependências:
